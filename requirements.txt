@@ -1,0 +1,6 @@
+requests
+paho-mqtt
+edge-tts
+SpeechRecognition
+sounddevice
+numpy
