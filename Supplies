@@ -1,0 +1,225 @@
+https://chatgpt.com/share/6b0707f9-3bc0-83ec-a211-19ce94fbe1f2
+
+Absolutely! Since Momo is going to be an interactive AI robot for your exhibition, I've divided the supplies into **electronics, voice interaction, body construction, and assembly materials**.
+
+I've also kept the latest design decision in mind: Momo's outer body should stay plain, without the chutney decorations or boots.
+
+# **Momo — Complete materials and parts checklist**
+
+## **1. Main electronics**
+
+Essential
+
+[Placa ESP32  WiFi / Bluetooth DEVKit V1 30 Pinos | Shopee Brasil](https://images.openai.com/static-rsc-4/zqEfUcBLbYxbknstifjwuqV9ZRBUpic6EKE2-eyGUU2SsC6aa19YY3TG1qCT4_sOu6GxeA-MU0ss5pEQN1ab9KWwB6GtywSzf3moAb27q2JyF5ZN3YLvDgUs6enb3LqTTPrpuzBcfSYGPIt6CehL2tHrEJN_QmUirMteaxRBZo0?purpose=inline)
+
+**1. ESP32 development board**
+
+The controller for Momo's screen and animations. This is the board already used in your Wokwi project.
+
+[2.8 Inch ILI9341 TFT LCD Touch Screen Module  – ControllersTech®](https://images.openai.com/static-rsc-4/4MXzoVh5mTWKqA7Tp1ev4psbIvpZW_Qr7aK0BtqvNeKMaKWIzKAax0ExFsktMpw_WR8LF_G-7pIDY7UdUWCNgX9mllz3f0_SgHTyKw5OJEeQ9B04WtDzg8fE2cZCgXpdxOzWDHm__XN0VJtoObf10LbqhC83Lwn--cUeYN4YIfA?purpose=inline)
+
+**2. ILI9341 TFT display**
+
+Displays Momo's animated expressions. Your simulation uses a 320 × 240 display.
+
+[1. Breadboard connections — PC-Microbit-Micropython](https://images.openai.com/static-rsc-4/uq3N8ogDNjsZg07UP8fH2ryy22DF2TCY0HoisseCpmWVj6r2cVhBWwwETY4MEpjKn6HATJANEOUAiUw9tD4HMd5vEdWTxXJiUAjIk2C4MrAJG-VOtc7HS1ABa_G8ezUfFJpxxZ84Cg5lVMWdK3gM8tknT_d2Sfd08sSZ-uk_8pk?purpose=inline)
+
+**3. Jumper wires**
+
+For connecting the ESP32 and display.
+
+[170 Tie Point Mini White Solderless Breadboard | Buy in Australia | CE05142 | Core Electronics](https://images.openai.com/static-rsc-4/rFIh8JaH4iNbi1IlONluk4emW6drW4kTSqvsdBAoA79Y7jDCYzW-3VwMA_rmbsXCwVoAKkPyJ6ufy_rpL9FMzEYZZMS-DpIauzdsbAo2rMW03w89Y4nfVis7RuQbiiN4OybeBiOF7RPS9lW31Zq3yfIqFStMVob6zgVSZ-mfvPo?purpose=inline)
+
+**4. Breadboard or prototyping board**
+
+For testing and making the electronic connections permanent.
+
+[ESP32-DevKitC-32D Development Kit with Micro-USB Cable | eBay](https://images.openai.com/static-rsc-4/oI_Fyfyezs3mXJALqP5322IMMsz7mnikoYXiKuwmpCfRz16t1sHy_6WWiqIUSOOHZj5P797V4CioWWxWVH8pMvuJNs1hui_gUc6kmf39_a6HgxGEib1GFKCPT-mx-CFO7agFeWE6unSvDMxyvHItrfEoZzqtPgOEFEBnqPxnFMg?purpose=inline)
+
+**5. USB data cable**
+
+For programming and powering the ESP32.
+
+## **2. Voice and AI system**
+
+Essential for spoken interaction
+
+[USB Microphone for laptop and Computers Adjustable Studio Singing Gaming Streaming Mikrofon Stand Mic With Holder Desktop | Daraz.pk](https://images.openai.com/static-rsc-4/ayGQcKYn3GhlRE25NSyKI9LHG3Qkyx5r_kPAr64s7suzNDX5qeCSeoJiUXXZX2yYrpxbViQA7tFycTcwDLi6eIeiRiO6ay-idQHvBq0lxlFYbsCzyODavmvUMy5d0-LDu2MMXYlGHZ3JV0dtDhL5oypCIsikkWaWeQlCqlP_p4A?purpose=inline)
+
+**6. Microphone**
+
+Captures questions spoken by exhibition visitors.
+
+[SANWA SUPPLY（サンワサプライ） コンパクトPCスピーカー USB接続 スピーカー 6W出力 パッシブラジエーター 小型 有線 ボリューム調整 MM-SPU21BK : サンワダイレクト - 通販 - Yahoo!ショッピング](https://images.openai.com/static-rsc-4/dSmFExOQX7Q9iFyNOPnf5aUWr3QNZECPRnwl9pQbcssdjueBeTv2GAwd93NXqlk845YBztKUQzeFCsetNoWZQfo3ajfbK186hMb_rPSuqs75T1YifoetI0Cmsrsgb2vUNh51Fxc8ZmMMLrxFTYvTPa_W1vSk4r4_uktrKlDj2JI?purpose=inline)
+
+**7. Speaker**
+
+Lets Momo speak its answers aloud.
+
+[Pi 5 Single Board Computer - Raspberry Pi | Mouser](https://images.openai.com/static-rsc-4/_Xw-SdyMIhRCQ-EbXgfQJyjj15POIBzSTEMaRuwiJYcK1ll51zCqBnoHFfbzFzTwKNE_cKDG2PIbq_QbRge3Wb2rJ-tZR_wl1msqSBEd2I_Zc2JaK1ykJDuqugy2ciYfRV0AHEE4cqXUiYhpfQwUZdw1pvRRDOMynnOAEUUva6w?purpose=inline)
+
+**8. Raspberry Pi or laptop**
+
+Runs the speech recognition, AI response generation and text-to-speech system. You don't necessarily need to fit this inside Momo's body.
+
+[White wireless wi-fi router with two vertical black antennas isolated on white background](https://images.openai.com/static-rsc-4/h9J59Yw-fOqQrRHQV033Pfaohre83QaZ_fgnyLL4SbUzd1WNXxu81wnDTKTGsDEiDf97jxkgcDta4ObNHQ-c16qZB--Ek5cyoRchF_FfTueGAoOMBXOCCrag2Ip8YHyPDdYeainO3KwjbMN8Uwf6qzeRM4KFswaiu0e1mg0fUW001oeDtiUbvhTYGvqOey6V?purpose=inline)
+
+**9. Wi-Fi connection**
+
+Needed for communication between the ESP32 and the AI system, and for online AI services.
+
+## **3. Power supplies**
+
+[5V 1A (1000mA) USB Port Power Supply w/ 2M MicroUSB Cable – UL Listed - MakerSpot](https://images.openai.com/static-rsc-4/P6y_4W9TzQhDo0NosEI8rBVuD7TjWwCptiSFieLXWatm7HXYoVOuYQgrdT8jjEMTT6Rahj_eIN2OCIJClDDFrrhmRBLk0KM-KH-uc8DKEscCtRnj5x_J_Q0TitKwvFMbmvWKzWYnokDhz4Pxotw39Stc-dxQtYXsxI-9TKgWA6w?purpose=inline)
+
+**10. Regulated 5V power adapter**
+
+For powering the electronics, with sufficient current capacity for the final setup.
+
+[Power Bank, 10,000 mAh - Biltema.fi](https://images.openai.com/static-rsc-4/hJBrlUr6DHcKrpzmWcZR4NcH3OOF_NHd4-5QglfmUoule-FuXyUCEnhKhnXKcuSt4DHyU785wCD9WSmnsxAPr8HH2I6ygHTYeri9BNyvgkCFZOeGarcOoJi_P2YsNj9LJ0LRt9WqCM_YfTTwGgWrIzqYv-McylrjX58ptZnG3Ww?purpose=inline)
+
+**11. Power bank (optional)**
+
+Useful if Momo needs to be portable.
+
+[KCD11 2 Pin 2 Position On/Off Mini Rocker Switch-BLACK | Buy Electronic Components Online Pune - Rajiv Electronics](https://images.openai.com/static-rsc-4/nCMJ29Z2W5ANON4Tot6rNQFdZhqGjtL6Tn1pzY6sRvwhUlSOv5L_H0RL_B_gHFhVI5nci57e50iDnOpf-48aACNhYewpNZ2MjBHXxxDbpohLQGLpjrQEy7rbTskd6ETVV01t1w-xqkwbna3V8Ru-5lbqwCollPXy-EYYtQ3I_dk?purpose=inline)
+
+**12. On/off switch**
+
+For conveniently switching Momo on and off.
+
+Use a properly rated, protected power source. We should calculate the required current before choosing the final adapter or power bank.
+
+## **4. Momo's outer body**
+
+Essential
+
+[価格.com - ミクシィ、手のひらサイズの自律型会話ロボット「Romi」を一般販売へ](https://images.openai.com/static-rsc-4/GM6ZjM8MJLaLSZ5fcmJklLQbYWd8ZqpGDxXlnP18gXZdhJo4748bJvfpSyWJYZaYv7Wuaq1S0Z8jX6Z977bwdLILMTthMzGUXzLk77PGswy-HPmGKL0p3jd_XYsAQ1f0sISLODs05zIEIwg8Uq8l3RM8wXnkuQeHi5WPjGWll5g?purpose=inline)
+
+[〈第2.1世代〉ころボ　3Dプリンタ製パーツ【KORokoro.rOBOt project™】 - KORokoro.rOBOt project™｜球体型癒し系ロボット「ころボ™」 - BOOTH](https://images.openai.com/static-rsc-4/RLnuIzx6MSuJX4W6VNo75cyu-Lna4VQRvPg_MoqCE-NolWmEy32c6eG9BCoE34xhHQwhMgZfLInLos4qSf5QSoMHkCXHoFKIQInMe-LRq3szkDJBHt7KffKbB7nmKRX4CxR6pTB0Q1Si52Vu_1RDYWUtJuCaenx3D-s_cGeC5HI?purpose=inline)
+
+[Tn-24 V2.0 (cute Desktop Companion Robot)](https://images.openai.com/static-rsc-4/Am5mlUDMxakrNmI_uNdcM3jk5l-ONdduxzwNtt6eI_V1pmY_X6lcPJgilwJh8raB9tCRVHJ5C3v0Q8O3C6p8qCU-4wm0-8HcFNePuEI6wztufWAo4MmuRaw3-To4u5id_vnFPqhiJ7nhWKFUeMrq-u9fqG3grDjLFaeA9CuB3kM?purpose=inline)
+
+10
+
+| Material                                              | Purpose                    |
+| ----------------------------------------------------- | -------------------------- |
+| Lightweight foam board, acrylic or 3D-printed plastic | Main body                  |
+| White paint or finishing sheet                        | Smooth outer finish        |
+| Transparent acrylic screen cover                      | Protects the display       |
+| Internal mounting brackets                            | Holds electronics in place |
+| Small screws and nuts                                 | Secures the parts          |
+| Strong adhesive                                       | Body assembly              |
+| Sandpaper                                             | Smooths rough edges        |
+
+The body should have a properly sized opening for the display and enough internal room for the ESP32, wiring and other electronics.
+
+## **5. Assembly tools and miscellaneous supplies**
+
+[Набір із 6 викруток Pro'sKit 8PK-2061 > Викрутки Pro'sKit > Інструмент Pro'sKit в Україні](https://images.openai.com/static-rsc-4/dyPAuuESpx3wN1s96cDYn2f-qQ4SB4m85dOulT01qAcHljYp-LQbC8uIm8JeV1o1W38QYpI-LlyOU7E0a8l3cD2A-FcS8Kcsw__X2s11hLer4sLi_UtNVuEchN7H06NWWbvV2TiKcNwH4BbTlpWMXf-U0zGJ0gZrum0OJZMBZ_c?purpose=inline)
+
+**Screwdriver set**
+
+[Jual Multitester Digital Victor Vc890d Multi Meter Avo Avometer Vc 890d Ori Di Seller Livotech - Blimbing, Kota Malang | Blibli](https://images.openai.com/static-rsc-4/tIEqOmVLqjxgPBDZ1x3VNfDeNRWEjAz0elg9oEmO5bTwAn_PviQ-bAo9OlK21rhdyrBgoZcD1udBklRgaqwhYQGzWYom5h5UMAsTTaizVywD8w41G5XWXRrsT7yQ1JZ4TqkC6E63T8xI0KIwYeQvV7sdq3IuxGBs7J6bksWXRXs?purpose=inline)
+
+**Multimeter**
+
+[Arizona Language Center | Language Classes & Certifications](https://images.openai.com/static-rsc-4/IS0Ov9htqNLc6oXFoEe986ar7pnrIKJ0SRoB-C9bTgq3OKZdxhdsKn0n9h6JnFx-siDTg2-0A-F15j42m6hPewSaLsagxnnQoluIwNsQcQeMS8W_qkG7FZ1CkEm7Lk0QExGY0LSTK6jcoVPx1TKVl_SNxhIz33RH1VkNk9XZKXk?purpose=inline)
+
+**Soldering equipment**
+
+**Heat-shrink tubing**
+
+[Amtech S0665 150 Piece assorted cable tie set | Amtech DIY](https://images.openai.com/static-rsc-4/GN8t_oX0_-Tga2i5QiffosJzWHYh-Y_WLITIoSpELOSosjYcL8CiM3QACCsiZi-YLsZHiY0nuKkSwctZskAJS2hFNrV7jiZC66wt0WgOHsW9hNoVh3L_jCdKA2cOoWn-9rQkJmhbT2rSbo3NguL0WN4vU95i5a6kg-6_Xfv9Q4A?purpose=inline)
+
+**Cable ties**
+
+[XFasten Double Sided Tape Foam Mounting Tape, 1-Inch x 150-Inch | eBay](https://images.openai.com/static-rsc-4/9_7klnz2gmbhAVnhAQCpHxMrRk8b5jPdcypu3Pc-JUAPvARZoyY8eQd37XFoh7_jd-_1C8xSUlE2pGsSaVdNHO94dLPZtlaTRnD5AoqiN7Xs4WaQ2hhtbNgux3hupcSb24Uu50MgZVAeCOL804Xf6Y9hgLqbgxq9rFENg15bDlY?purpose=inline)
+
+**Mounting tape**
+
+Soldering and cutting tools should be handled with adult supervision.
+
+## **6. Parts we haven't finalised yet**
+
+These depend on what you want Momo to physically do.
+
+| Component                | Do we need it?                                           |
+| ------------------------ | -------------------------------------------------------- |
+| Servo motors             | Only if Momo needs moving arms, head or other body parts |
+| Wheels and motor drivers | Only if Momo needs to drive around                       |
+| LED strips               | Optional; not required for the current screen design     |
+| Extra sensors            | Optional; depends on future features                     |
+| Cooling fan              | Only if the final computer setup needs one               |
+
+I wouldn't purchase these yet.
+
+## **7. Your shopping checklist**
+
+**Momo's purchase tracker**
+
+0/23 collected
+
+**Main electronics**
+
+ESP32 development board
+
+ILI9341 TFT display
+
+Jumper wires
+
+Breadboard or prototyping board
+
+USB data cable
+
+**Voice and AI**
+
+Microphone
+
+Speaker
+
+Raspberry Pi or laptop
+
+Wi-Fi access
+
+**Power**
+
+Regulated 5V adapter
+
+Power bank (optional)
+
+On/off switch
+
+**Body**
+
+Body construction material
+
+Transparent screen cover
+
+Mounting brackets
+
+Screws and nuts
+
+Adhesive and finishing material
+
+**Tools**
+
+Screwdriver set
+
+Multimeter
+
+Soldering equipment
+
+Heat-shrink tubing
+
+Cable ties
+
+Mounting tape
+
+&#x20;Copy checklist
+
+## **One important thing before we buy anything**
+
+I suggest we finalise Momo's physical construction first, because the body dimensions will determine the display opening, internal space, wiring lengths and mounting arrangements.
+
+**My recommendation:** Let's make a proper physical assembly plan for Momo, showing where every electronic component will sit inside its body. That way, we won't accidentally buy parts that don't fit.
